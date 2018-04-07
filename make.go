@@ -65,9 +65,11 @@ func main() {
 
 	bin := binary{
 		name: commandName,
-		// Change these according to the platforms you would like to support. A
-		// full list can be found here:
-		// https://golang.org/doc/install/source#environment
+		// Change these according to the platforms you would like to support.
+		// To see the valid GOOS-GOARCH combinations use:
+		//
+		//    go tool dist list
+		//
 		targets: []platform{
 			{os: "linux", arch: "386"}, {os: "linux", arch: "amd64"},
 			{os: "windows", arch: "386"}, {os: "windows", arch: "amd64"},
