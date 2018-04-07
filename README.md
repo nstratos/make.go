@@ -57,6 +57,7 @@ script gets the job done then you should use that.
 - A Makefile or other script.
 - [Gox](https://github.com/mitchellh/gox), my personal favorite cross compile
   tool.
+- [Mage](https://magefile.org/), make.go on steroids.
 
 ## Contributing
 
